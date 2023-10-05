@@ -1,0 +1,93 @@
+﻿System,ModelType,Issues,Answers
+Request Form,Collateral,Absence of Exposure by State,"State distribution required. State distribution can be a different exposure type, different period, losses, estimated (locations, judgment). If no basis, equally weight all states."
+Request Form,Collateral,Cannot edit request,"The request form can be changed or deleted only when the status is New.  After the analysts pick up the request  the status moves to In Progress, and the request form cannot be changed."
+Request Form,Collateral,Collateral Held Amount,"Enter the value of Collateral Amount held of the single LoB in case of single Collateral Model run. If you want to combine the Collateral Model of different LoBs then enter the combined Collateral Held value of all lines and select 'Combined for all Lines' as 'Yes' in request form, model will split the collateral held amount among the LoBs itself."
+Request Form,Collateral,Collateral Valuation Date,Collateral valuation date cannot be older than most recent effective date. It should already be greater than Most Recent Policy Effective Date.
+Request Form,Collateral,Combine models,Collateral recombine tool can combine related request. Tool does not recognize models submitted on different days.
+Request Form,Collateral,Combined Collateral Request status ,Sometimes collateral models are combined with other LOB'S which are in progress for some data issue so all related combined requests with that collateral model will show as in progress.
+Request Form,Collateral,Exposure Trend,"It would be always ""No Exposure Trend"" when Exposure Basis is ""No of Employees"" and with Payroll as Exposure Basis, select Average Weekly Earnings with corresponding industry to which account belongs to."
+Request Form,Collateral,Ground Up Losses 'No'/Large Losses,"Model can be run with Large Losses in absence of Ground Up loss detail, provide the Ground Up Loss Summary along with Large Losses while submitting the request."
+Request Form,Collateral,Issue with Data files,"If more than 3 data files need to be submitted, they can be zipped together. If the size of all files uploaded is greater than 40MB then try to compress the files and then upload else email the files separately to MQ"
+Request Form,Collateral,Issue with Loss Development Triangle Valuation,"Ensure the last diagonal is at the age of the column if the accident year inception and triangle valuation date do not imply the column ages. For example if row is for 11/1/2017, triangle valuation date is 8/1/2018, then last diagonal is likely 9-21-33 month ages."
+Request Form,Collateral,Missing Values in Loss Development Triangle,Clients' loss development triagle reports often leave a blank where there was no change from prior valuation. The bland needs to be replaced with the prior valuation's amount.
+Request Form,Collateral,Split models,Collateral models submitted as combined cannot be split.
+Request Form,Exposure Based Model,Absence of Exposure by state,State distribution is required. The distribution should be equal to the total exposure provided.
+Request Form,Exposure Based Model,Class code,Please check class code in refrence connect and provide valid class code from list provided.
+Request Form,Exposure Based Model,Exposure basis,Please refer to refrence connect for class code premium base e.g. if base is payroll then please provide Payroll by state split.
+Request Form,Exposure Based Model,Layers of Interest,"It can include $0. It must be in increments of 25,000 (example, $10,000 is not possible). Maximum recommended is $25M (higher is possible). Frequency Limit calculated by the model will also be a layer."
+Request Form,Exposure Based Model,Payroll by State and Class Code distribution,Sum of Payroll in Payroll by State distribution should be equal to Total Payroll value enterd in request form with valid class codes.
+Request Form,LPM,Absence of Exposure by state,"State distribution is required. State distribution can be a different exposure type, different period, losses, estimated (locations, judgment).   If no basis, equally weight all states."
+Request Form,LPM,Cannot change Industry Peer,WC Industry Peer industry cannot be changed. It is driven by the industry assigned by company to the CN#. LPM exposure trend selection does not drive the peer industry.
+Request Form,LPM,Cannot edit request,"The request form can be changed or deleted while the status is New.  After the analysts pick up the request  the status moves to In Progress, and the request form cannot be changed."
+Request Form,LPM,Change LoB,WC LPM-only request must be resubmitted to get WCPA (WCPA request form has additional questions). WCPA request can be changed to an LPM-only by analyst.
+Request Form,LPM,Data Requirement for WCPA,"Incurred Indemnity-Medical Split, Report Date (can proceed with same as Loss Date if not available), Latest 5 Policy Year data, Date of Loss, Cause of Loss & Nature of Injury(can proceed with 'Not Available' in case the information is not available)"
+Request Form,LPM,Data< 3 years,"LPM requires at least 3 historical years to support model logic. Collateral has no minimum, however current year is needed as placeholder at least."
+Request Form,LPM,"Email sent, but model still In Progress","Sometimes a model is Completed, then put back to In Progress due to a problem/question with output in this case email to MQ for response."
+Request Form,LPM,Exposure Trend,"It would be always ""No Exposure Trend"" when Exposure Basis is ""No of Employees"" and with Payroll as Exposure Basis, select Average Weekly Earnings with corresponding industry to which account belongs to."
+Request Form,LPM,Ground Up Losses 'No'/Large Losses,"Model can be run with Large Losses in absence of Ground Up loss detail, provide the Ground Up Loss Summary along with Large Losses while submitting the request. WCPA Model can be run with Ground Up Losses only."
+Request Form,LPM,Hazard Group,If Projected Exposure is distributed in State CA or All Other States(except CA) then a Hazard Group Distribution is required in Section Hazard Group CA or Hazard Group All States except CA respectively. Hazard Group distribution can be found using Exposure by Class Code distribution.
+Request Form,LPM,Issue with Data files,"If more than 3 data files need to be submitted, they can be zipped together. If the size of all files uploaded is greater than 40MB then try to compress the files and then upload else email the files separately to MQ"
+Request Form,LPM,Issue with Loss Development Triangle Valuation,"Ensure the last diagonal is at the age of the column if the accident year inception and triangle valuation date do not imply the column ages. For example if row is for 11/1/2017, triangle valuation date is 8/1/2018, then last diagonal is likely 9-21-33 month ages."
+Request Form,LPM,Layers of Interest,"It can include $0. It must be in increments of 25,000 (example, $10,000 is not possible). Maximum recommended is $25M (higher is possible). Frequency Limit calculated by the model will also be a layer."
+Request Form,LPM,Less than 4 historical policy years,"LPM requires at least 3 historical years to support model logic. Collateral has no minimum, however current year is needed as placeholder at least."
+Request Form,LPM,Less than 5 historical policy years ,WCPA uses 5 historical policy years. At least 5 are necessary.
+Request Form,LPM,Missing Values in Loss Development Triangle,Clients' loss development triangle reports often leave a blank where there was no change from prior valuation. The blank needs to be replaced with the prior valuation's amount.
+Request Form,LPM,Modify Acceptable exposure type,Must be payroll to support design
+Request Form,LPM,WCPA with Large Loss Approach,"WCPA could not be run with Large Losses, Ground Up Loss Detail is required to run WCPA"
+Request Form,LPM,WCPA withou most recent policy year,WCPA uses 5 consecutive historical policy years. The current PY must be included in the LPM.
+Report/MSTR,Collateral,Any other changes,Email to MQ
+Report/MSTR,Collateral,Loss Summary Mismatch,"Please check the analyst's comments first given on the last page of report. Loss Summary may change due to removal of Closed No Pay Claims, Roll Up of claims from same occurrence or due to removal of negative incurred claims in loss file. If still have any queries, contact the MQ."
+Report/MSTR,Collateral,Override selected ultimate projection value,Please write to MQ.
+Report/MSTR,LPM,change in the Layers of Interest,Email the changes to be done with proper explanation to MQ
+Report/MSTR,LPM,Loss rate selection changes,Email to MQ
+Report/MSTR,LPM,Loss Summary Mismatch,"Please check the analyst's comments first given on the last page of report. Loss Summary may change due to removal of Closed No Pay Claims, Roll Up of claims from same occurrence or due to removal of negative incurred claims in loss file. If still have any queries, contact the MQ."
+Report/MSTR,LPM,Override Frequency Limit,Frequency limit is determined by the model based on the losses and cannot be customized.
+Portal Access,All,New colleague provisioning/Need access to account,"To be provisioned to the portal, email MQ with:
+1) Your employee ID number 2) Client names and client numbers (CN-numbers) you want to access 3) Your manager's approval or email address to approve the request.
+Account Coordinators (Person) get access to all clients. Contact  Person 2 if brokers request all clients or Super User access."
+Casualty Portal,Collateral,Cannot find CN Number,"User not provisioned to CN. Try advance search by CN with name blank. Ensure CN does not have dash or space. Log out and in to refresh list. MQ can try search to see if client is available.
+(OR)
+Check BCAM to confirm user is provisioned to CN. Remove and add CN again.
+(OR)
+Some CNs become inactive and must be removed from provisioning. Models can also be moved to new CNs.
+"
+Casualty Portal,Collateral,Cannot find Request,Be in correct CN#. Uncheck My Reqeusts Only in the portal. Verify CN# is still valid. Check if model was created from Model portal (by super user).
+Casualty Portal,Collateral,Multiple data files,"if more than 3 data files need to be submitted, they can be zipped together."
+Casualty Portal,Collateral,Unable to retrieve PDF report,"Common solutions:
+Try again. 
+Disable popup blocker in the browser
+Use Chrome browser
+Let us know if it still fails"
+Casualty Portal,LPM,Accept/Finalize Model,"If everything seems good then you can accept the model, but after accepting it, no changes can be done later."
+Casualty Portal,LPM,Casualty landing page will not load,Authsoftware might need to be authenticated.
+Casualty Portal,LPM,Cannot find CN Number,"User not provisioned to CN. Try advance search by CN with name blank. Ensure CN does not have dash or space. Log out and in to refresh list. MQ can try search to see if client is available.
+(OR)
+Check BCAM to confirm user is provisioned to CN. Remove and add CN again.
+(OR)
+Some CNs become inactive and must be removed from provisioning. Models can also be moved to new CNs.
+"
+Casualty Portal,LPM,Cannot find Request,Be in correct CN#. Uncheck My Reqeusts Only in the portal. Verify CN# is still valid. Check if model was created from Model portal (by super user).
+Casualty Portal,LPM,"Company search returned error: ""No results found""","User not provisioned to CN. Try advance search by CN with name blank. Ensure CN does not have dash or space. Log out and in to refresh list. MQ can try search to see if client is available.
+(OR)
+Check BCAM to confirm user is provisioned to CN. Remove and add CN again.
+(OR)
+Adminstrator checks if search works for each client user is provisioned. Some CNs become inactive and must be removed from provisioning. Models can also be moved to new CNs.
+"
+Casualty Portal,LPM,"Error: ""Something went wrong. Please try again"" after completing request form","Use a different model name. Model names must be unique within a CN-Number
+Answer all the questions in the request form. Do not leave any blank input items.
+Layers of interest cannot have duplicate values (except 0)
+Upload files <40MB in total
+Look at request form for any red error text"
+Casualty Portal,LPM,Login Issue - Casualty,Get provisioned. Use Chrome.  Open new browser sessions. Contact help desk.
+Casualty Portal,LPM,Multiple data files,"if more than 3 data files need to be submitted, they can be zipped together."
+Casualty Portal,LPM,Request Creation Issue - File Upload Error may have occurred,If you do not see a request in the Requests portal then the request was not created. Submit a new request. Verify the new request in Requests portal.
+Casualty Portal,LPM,Unable to retrieve PDF report,"Common solutions:
+Try again. 
+Disable popup blocker in the browser
+Use Chrome browser
+Email to Model Quest."
+Any Other,Exposure Based Model,High Loss Projections,"Please verify if Class code, CGL class code and Expsoure value is correct."
+Any Other,Exposure Based Model,Unable to retrieve PDF report,"Currently, portal is not able to generate PDF report of EBM. If you want, you can request the same from  MQ, Analyst will generate a report of requested EBM."
+Any Other,LPM,Output report training,Draft training available. Portal Collateral Training (draft 3).pptx
+Any Other,LPM,Raise Rush Request,"Colleague can communicate ""rush"" through reqeust form Comments or email to MQ. MQ forward to contractor. Contractor normally clears all requests by 10-11AM next day. MQ can facilitate by reviewing request, ask contractor to send rejection issues to MQ early. Same day rush then refer requester to Power User in zone."
+Any Other,LPM,Where do we find Sample Reports?,Sample reports are available to colleagues in the blog

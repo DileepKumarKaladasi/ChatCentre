@@ -8,12 +8,12 @@ from PIL import Image
 import numpy as np
 from streamlit.components.v1 import html
 from pyOutlook import *
-import win32com.client as win32
+#import win32com.client as win32
 from cos_similarity import predictions
 from sentence_transformers import SentenceTransformer
 import pandas as pd
 import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
+#from sklearn.metrics.pairwise import cosine_similarity
 import math
 #import streamlit.report_thread as ReportThread
 #from streamlit.server.server import Server

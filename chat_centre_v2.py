@@ -98,7 +98,7 @@ def load_data():
 
 @st.cache_resource
 def load_model():
-    model = SentenceTransformer("SentenceTranformerMPNET")
+    model = SentenceTransformer("all-mpnet-base-v2")
     return model
        
 
